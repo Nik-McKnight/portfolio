@@ -8,15 +8,16 @@
 .App {
   display: grid;
   text-align: center;
-    grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 15% auto 15%;
-    grid-template-areas:
-      "header header header"
-      ". main ."
-      "footer footer footer";
-    place-items: center;
-    background-color:#5cdb95;
-    color: #05386b;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 15vh auto 10vh;
+  grid-template-areas:
+    "header header header"
+    ". main ."
+    "footer footer footer";
+  place-items: center;
+  background-color:#5CDB95;
+  color: #05386b;
+  min-height: 100vh;
 }
 
 

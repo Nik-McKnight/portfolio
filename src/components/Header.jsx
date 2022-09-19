@@ -6,7 +6,7 @@ import "../style/Header.css";
 export default function Header() {
   return (
     <header>
-      <div>Header</div>
+      Nik McKnight
       <NavBar />
     </header>
   );

@@ -3,6 +3,7 @@
   Kelly   -   #5CDB95
   Mint    -   #8EE4AF
   Cream   -   #EDF5E1
+  Purple  -   #5b00c3
 */
 
 .App {
@@ -15,8 +16,8 @@
     ". main ."
     "footer footer footer";
   place-items: center;
-  background-color:#5CDB95;
-  color: #05386b;
+  background-color:#EDF5E1;
+  color: black;
   min-height: 100vh;
 }
 
@@ -55,4 +56,3 @@
     transform: rotate(360deg);
   }
 }
-

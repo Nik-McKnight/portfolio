@@ -6,7 +6,7 @@ header {
     flex-direction: column;
     padding-top: 10px;
     margin-bottom: 10px;
-    background-color: #05386B;
+    background-color: #5b00c3;
     color: #EDF5E1;
     place-content: center;
     font-size: 4vh;
@@ -18,10 +18,10 @@ nav {
 }
 
 nav > a {
-    color: #EDF5E1;
+    color: black;
 }
 
 nav > a:hover {
-    color: #5CDB95;
+    color: #EDF5E1;
 }
 

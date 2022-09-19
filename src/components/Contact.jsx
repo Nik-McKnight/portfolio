@@ -3,30 +3,39 @@ import React from "react";
 export default function Contact() {
   return (
     <div class="content">
-      Contact Information
+      <h1>Contact Information</h1>
       <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        dolore aperiam fuga, exercitationem molestias, porro cum molestiae
-        necessitatibus aspernatur dolor quia facilis neque nulla corrupti
-        corporis labore totam ipsa a?
+        <b>Email: </b>
+        <a
+          href="mailto: nik.mcknight735@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          nik.mcknight735@gmail.com
+        </a>
+      </div>{" "}
+      <div>
+        <b>Linkedin: </b>
+        <a
+          href="https://www.linkedin.com/in/nik-mcknight/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://www.linkedin.com/in/nik-mcknight/
+        </a>
       </div>
       <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        dolore aperiam fuga, exercitationem molestias, porro cum molestiae
-        necessitatibus aspernatur dolor quia facilis neque nulla corrupti
-        corporis labore totam ipsa a?
+        <b>GitHub: </b>
+        <a
+          href="https://github.com/Nik-McKnight"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://github.com/Nik-McKnight/
+        </a>
       </div>
       <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        dolore aperiam fuga, exercitationem molestias, porro cum molestiae
-        necessitatibus aspernatur dolor quia facilis neque nulla corrupti
-        corporis labore totam ipsa a?
-      </div>
-      <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        dolore aperiam fuga, exercitationem molestias, porro cum molestiae
-        necessitatibus aspernatur dolor quia facilis neque nulla corrupti
-        corporis labore totam ipsa a?
+        <b>Phone:</b> +1 (563) 570-7808
       </div>
     </div>
   );

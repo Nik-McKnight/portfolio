@@ -4,3 +4,11 @@
     height: 100%;
     background-color: #5CDB95;
 }
+
+a {
+    color: #05386B;
+}
+
+a:hover {
+    color: #EDF5E1;
+}

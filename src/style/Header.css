@@ -5,26 +5,30 @@ header {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    flex-direction: row;
     background-color: #5b00c3;
     color: #EDF5E1;
-    place-content: center;
+    justify-content: space-between;
     font-size: 4vh;
+}
+
+header > * {
+        padding: 5vh 6vh 0 0;
 }
 
 nav {
     display:flex;
     justify-content: space-around;
+    flex-basis: 60%;
+    font-size: 4vh;
 }
 
 nav > a {
-    color: black;
+    color: #EDF5E1;
 }
 
 nav > a:hover {
-    color: #EDF5E1;
+    color: black;
 }
 
 .bm-burger-button {
@@ -32,12 +36,18 @@ nav > a:hover {
     width: 4vh;
     height: 4vh;
     left: 4vh;
-    top: 4vh;
+    top: 5.5vh;
     display: none;
 }
 
 .bm-burger-bars {
     background: #EDF5E1;
+}
+
+
+
+.bm-menu-wrap {
+    top: 0px;
 }
 
 .bm-menu {
@@ -66,10 +76,32 @@ nav > a:hover {
 
 }
 
+.bm-cross-button {
+    height: 2vh;
+    width: 2vh;
+    left: 0px;
+    display: none;
+}
+
+.bm-cross {
+    left: 0px;
+    display: none;
+    background: #EDF5E1;
+}
+
 @media only screen and (max-width: 768px) {
     .bm-burger-button {
         display: block;
     }
+
+    .bm-cross-button {
+        display: block;
+
+    }
+
+    .bm-cross {
+        display: block;
+  }
 
     .bm-menu {
         display: block;

@@ -6,8 +6,8 @@ import "../style/Header.css";
 export default function Header() {
   return (
     <header>
-      Nik McKnight
       <NavBar />
+      <div>Nik McKnight</div>
     </header>
   );
 }

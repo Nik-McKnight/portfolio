@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
+import "../style/Header.css";
 
 const toggleMenu = ({ isOpen }) => {
   const menuWrap = document.querySelector(".bm-menu-wrap");
@@ -20,6 +21,7 @@ export default function NavBar() {
         <Link to="/skills">Skills</Link>
         <Link to="/contact">Contact</Link>
       </nav>
+      {/* Fix issue with cross button sizing */}
       <Menu noOverlay onStateChange={toggleMenu}>
         <Link className="menu-item" to="/">
           Home

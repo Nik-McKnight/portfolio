@@ -22,14 +22,16 @@ header > * {
 
 nav {
     display:flex;
-    justify-content: space-around;
-    flex-basis: 60%;
+    justify-content: flex-start;
+    flex-basis: 50%;
     font-size: 4vh;
+    padding-left: 1vh;
 }
 
 nav > a {
     color: #EDF5E1;
     text-decoration: none;
+    padding: 0 1.5vh 0 1.5vh;
 }
 
 nav > a:hover {

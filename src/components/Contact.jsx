@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div class="content">
       <h1>Contact Information</h1>
-      <div>
+      <div class="contact">
         <b>Email: </b>
         <a
           href="mailto: nik.mcknight735@gmail.com"
@@ -14,7 +14,7 @@ export default function Contact() {
           nik.mcknight735@gmail.com
         </a>
       </div>{" "}
-      <div>
+      <div class="contact">
         <b>Linkedin: </b>
         <a
           href="https://www.linkedin.com/in/nik-mcknight/"
@@ -24,7 +24,7 @@ export default function Contact() {
           https://www.linkedin.com/in/nik-mcknight/
         </a>
       </div>
-      <div>
+      <div class="contact">
         <b>GitHub: </b>
         <a
           href="https://github.com/Nik-McKnight"
@@ -34,7 +34,7 @@ export default function Contact() {
           https://github.com/Nik-McKnight/
         </a>
       </div>
-      <div>
+      <div class="contact">
         <b>Phone:</b> +1 (563) 570-7808
       </div>
     </div>

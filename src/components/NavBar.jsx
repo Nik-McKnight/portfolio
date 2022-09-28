@@ -15,7 +15,7 @@ export default function NavBar() {
     <>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/about">About Me</Link>
+        <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/education">Education</Link>
         <Link to="/skills">Skills</Link>
@@ -27,7 +27,7 @@ export default function NavBar() {
           Home
         </Link>
         <Link className="menu-item" to="/about">
-          About Me
+          About
         </Link>
         <Link className="menu-item" to="/projects">
           Projects

@@ -1,3 +1,5 @@
+
+
 header {
     grid-area: header;
     position: sticky;
@@ -9,11 +11,13 @@ header {
     background-color: #5b00c3;
     color: #EDF5E1;
     justify-content: space-between;
+    align-items: center;
     font-size: 4vh;
+    font-family: 'Roboto Slab', serif;
 }
 
 header > * {
-        padding: 5vh 6vh 0 0;
+    padding-right: 6vh;
 }
 
 nav {
@@ -25,10 +29,15 @@ nav {
 
 nav > a {
     color: #EDF5E1;
+    text-decoration: none;
 }
 
 nav > a:hover {
     color: black;
+}
+
+.logo {
+    font-size: 8vh;
 }
 
 .bm-burger-button {
@@ -55,14 +64,14 @@ nav > a:hover {
     background: black;
     padding: 2vh;
     font-size: 2vh;
-    width: 30vh;
+    width: 35vh;
 }
 
 .bm-item-list {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 4vh;
+    padding: 8vh 4vh;
 }
 
 .bm-item {
@@ -89,7 +98,8 @@ nav > a:hover {
     background: #EDF5E1;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 1100px) {
     .bm-burger-button {
         display: block;
     }

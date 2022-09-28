@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <NavBar />
-      <div>Nik McKnight</div>
+      <div className="logo">Nik McKnight</div>
     </header>
   );
 }

@@ -4,7 +4,12 @@
   Mint    -   #8EE4AF
   Cream   -   #EDF5E1
   Purple  -   #5b00c3
+
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
 
 .App {
   display: grid;

@@ -20,17 +20,128 @@ export default function About() {
       </div>
       <div className="about">
         <h2>Hobbies</h2>
-        fish games reading
+        <div>
+          <h3>Games</h3>
+          <div>
+            I enjoy playing many genres, but I primarily play RPGs and Strategy
+            games.
+            <br />
+            <br />
+            Some of my favorite series include:
+            <ul>
+              <li>Crusader Kings (and Paradox Strategy games in general)</li>
+              <li>Mass Effect</li>
+              <li>Dragon Age</li>
+              <li>Assassin's Creed</li>
+              <li>The Elder Scrolls</li>
+              <li>Civilization</li>
+            </ul>
+            I'm currently working my way through the Final Fantasy and
+            Yakuza/Like a Dragon series.
+          </div>
+        </div>
+        <div>
+          <h3>Reading</h3>
+          <div>
+            I mostly read science fiction and fantasy, but I also read a bit of
+            general fiction, non-fiction, manga, etc.
+          </div>
+          <br />
+          <a
+            href="https://www.goodreads.com/user/show/154404976-nik-mcknight"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Link to my Goodreads account
+          </a>
+        </div>
+        <div>
+          <h3>Fishkeeping</h3>
+          <div>
+            I love keeping a variety of aquatic creatures! We currently have
+            four different betta community tanks, a guppy tank, and a shrimp
+            tank.
+            <br />
+            <br />
+            I'm also spinning up my first saltwater tank!
+          </div>
+        </div>
       </div>
       <div className="about">
         <h2>Other Interests</h2>
-        sports movies history cats
-      </div>
-      <div className="about">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        dolore aperiam fuga, exercitationem molestias, porro cum molestiae
-        necessitatibus aspernatur dolor quia facilis neque nulla corrupti
-        corporis labore totam ipsa a?
+        <div>
+          <h3>Music</h3>
+          <div>
+            I'll listen to most any genre, but my library is largely Alternative
+            and Indie.
+            <br />
+            Some of my favorite artists by genre:
+            <ul>
+              <li>
+                <b>Rock:</b> David Bowie, Elton John, Ghost/Ghost BC, Muse, and
+                Queen
+              </li>
+              <li>
+                <b>Alt:</b> Metric, The Killers, and Radiohead
+              </li>
+              <li>
+                <b>Indie:</b> Phoebe Bridgers, Lucy Dacus, and Japanese
+                Breakfast
+              </li>
+              <li>
+                <b>Hip-hop:</b> Run the Jewels, Outkast, and Beastie Boys
+              </li>
+              <li>
+                <b>Punk:</b> Ramones, Dead Kennedys (when they still had Jello),
+                and Bad Religion
+              </li>
+            </ul>
+          </div>
+          <br />
+          <a
+            href="https://open.spotify.com/user/ruxs2ubl4vcmam8u70zwp90ux"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Link to my Spotify account
+          </a>
+        </div>
+        <div>
+          <h3>Sports</h3>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            provident ut mollitia, cumque asperiores molestias eligendi ipsum
+            nemo ipsam ea ratione dolorum repellendus deleniti, voluptates
+            accusantium, illo iusto nam voluptatum.
+          </div>
+        </div>
+        <div>
+          <h3>Movies</h3>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            provident ut mollitia, cumque asperiores molestias eligendi ipsum
+            nemo ipsam ea ratione dolorum repellendus deleniti, voluptates
+            accusantium, illo iusto nam voluptatum.
+          </div>
+        </div>
+        <div>
+          <h3>History</h3>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            provident ut mollitia, cumque asperiores molestias eligendi ipsum
+            nemo ipsam ea ratione dolorum repellendus deleniti, voluptates
+            accusantium, illo iusto nam voluptatum.
+          </div>
+        </div>
+        <div>
+          <h3>Cats</h3>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            provident ut mollitia, cumque asperiores molestias eligendi ipsum
+            nemo ipsam ea ratione dolorum repellendus deleniti, voluptates
+            accusantium, illo iusto nam voluptatum.
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -63,7 +63,7 @@ nav > a:hover {
 
 .bm-menu {
     display: none;
-    background: black;
+    background: #d1aff7;
     padding: 2vh;
     font-size: 2vh;
     width: 35vh;
@@ -78,7 +78,7 @@ nav > a:hover {
 
 .bm-item {
     display: block;
-    color: #EDF5E1;
+    color: black;
     padding-bottom: 2vh;
 }
 
@@ -97,7 +97,7 @@ nav > a:hover {
 .bm-cross {
     left: 0px;
     display: none;
-    background: #EDF5E1;
+    background: black;
 }
 
 @media only screen and (max-width: 1250px) {

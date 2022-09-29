@@ -6,6 +6,9 @@
     font-size: larger;
 }
 
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Roboto Slab', serif;}
+
 a {
     color: black;
     text-decoration: none;
@@ -15,7 +18,7 @@ a:hover {
     color: #5b00c3;
 }
 
-b {
+.contact > b {
     color: #5b00c3;
 }
 
@@ -25,3 +28,29 @@ b {
     border-bottom: .5vh solid #5b00c3; */
     padding-bottom: 10vh;
 }
+
+.about {
+    background-color: #5b00c3;
+    color: #EDF5E1;
+    padding: 1vh 2vh 2vh 2vh;
+    margin-bottom: 5vh;
+    place-content: center;
+}
+
+.about > div {
+    background-color: #d1aff7;
+    color:black;
+    width: auto;
+    padding: 1vh 4vh 4vh 4vh;
+    margin: 1vh 2vh 4vh 2vh;
+}
+
+.about > div > a {
+    color: #5b00c3;
+    font-size: x-large;
+}
+
+.about > div > a:hover {
+    color: #EDF5E1;
+}
+

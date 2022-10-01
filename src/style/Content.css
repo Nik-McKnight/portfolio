@@ -29,7 +29,7 @@ a:hover {
     padding-bottom: 10vh;
 }
 
-.about {
+.about, .category {
     background-color: #5b00c3;
     color: #EDF5E1;
     padding: 1vh 2vh 2vh 2vh;
@@ -37,7 +37,7 @@ a:hover {
     place-content: center;
 }
 
-.about > div {
+.about > div, .project {
     background-color: #d1aff7;
     color:black;
     width: auto;
@@ -45,12 +45,12 @@ a:hover {
     margin: 1vh 2vh 4vh 2vh;
 }
 
-.about > div > a {
+.about > div > a, .project>a {
     color: #5b00c3;
     font-size: x-large;
 }
 
-.about > div > a:hover {
+.about > div > a:hover, .project>a:hover {
     color: #EDF5E1;
 }
 

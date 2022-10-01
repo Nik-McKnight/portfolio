@@ -1,6 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function Project({ name, description, technologies, links }) {
   const [techsToDisplay, setTechsToDisplay] = useState([]);
@@ -15,27 +14,27 @@ export default function Project({ name, description, technologies, links }) {
     });
     const getLinksToDisplay = links.map((link, i) => {
       return (
-        <li>
-          {link.description}: {link.url}
+        <li className="projectItem">
+          <a href={link.url} target="_blank" rel="noopener noreferrer">
+            {link.description}
+          </a>
         </li>
       );
     });
     setTechsToDisplay(getTechsToDisplay);
     setLinksToDisplay(getLinksToDisplay);
-  }, [technologies]);
+  }, []);
 
   return (
     <div>
       <div className="project">
-        <h4>{name}</h4>
-        <div>
-          <h5>Description</h5>
-          <div>{description}</div>
-          <h5>Technologies Used</h5>
-          <ul>{techsToDisplay}</ul>
-          <h5>Links</h5>
-          <ul>{linksToDisplay}</ul>
-        </div>
+        <h3>{name}</h3>
+        <h4>Description</h4>
+        <div>{description}</div>
+        <h4>Technologies</h4>
+        <ul>{techsToDisplay}</ul>
+        <h4>Links</h4>
+        <ul>{linksToDisplay}</ul>
       </div>
     </div>
   );

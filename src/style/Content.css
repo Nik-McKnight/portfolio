@@ -45,12 +45,18 @@ a:hover {
     margin: 1vh 2vh 4vh 2vh;
 }
 
-.about > div > a, .project>a {
+.about > div > a, .projectItem>a {
     color: #5b00c3;
     font-size: x-large;
 }
 
-.about > div > a:hover, .project>a:hover {
+.about > div > a:hover, .projectItem>a:hover {
     color: #EDF5E1;
+}
+
+.project > ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
 }
 

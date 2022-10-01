@@ -7,41 +7,17 @@ export default function Projects() {
       <h1>My Projects</h1>
       <div className="category">
         <h2>Full Stack Web Development</h2>
-        <div className="project">Nothing to show right now :(</div>
-      </div>
-      <div className="category">
-        <h2>Front End Web Development</h2>
-        <div className="project">This website!</div>
-      </div>
-      <div className="category">
-        {/* <h3>Back End</h3>
-        <div className="project">
-          <h4>E-Commerce Site</h4>
-          <div>
-            <h5>Description</h5>
-            <div>
-              This website was built as my capstone project for Fullstack
-              Academy. My work on this project was purely in the back end. I
-              designed and created the database using PostgreSQL
-            </div>
-            <h5>Links</h5>
-            <ul>Website</ul>
-            <h5>Technologies Used</h5>
-            <ul>Website</ul>
-          </div>
-        </div> */}
-        <h2>Back End Web Development</h2>
         <Project
           name="E-Commerce Site"
           description="This website was built as my group's capstone project for Fullstack
-              Academy. My work on this project was mostly in the back end. I
+              Academy. My work on this project covered the entire stack, except for CSS. I
               designed and created the database using PostgreSQL and Prisma, designed and created
               the REST API using Express.js, JSON Web Token, Prisma, and bcrypt, set up routes using React Router, 
-              built most of the components using React, built custom middleware in Express, 
-              and created custom hooks using React. The most difficult part of this project was 
-              creating a functional cart and checkout."
+              built custom hooks and most of the components using React, and built custom middleware using Express. 
+              The most difficult part of this project was creating a functional cart and checkout."
           technologies={[
             "Javascript",
+            "HTML",
             "Node.js",
             "React",
             "PostgreSQL",
@@ -65,6 +41,24 @@ export default function Projects() {
             },
           ]}
         ></Project>
+      </div>
+      <div className="category">
+        <h2>Front End Web Development</h2>
+        <Project
+          name="This Website!"
+          description="My portfolio site. A work-in-progress."
+          technologies={["Javascript", "HTML", "CSS", "React"]}
+          links={[
+            {
+              description: "GitHub Repository",
+              url: "https://github.com/Nik-McKnight/portfolio",
+            },
+          ]}
+        ></Project>
+      </div>
+      <div className="category">
+        <h2>Back End Web Development</h2>
+        {/* <Project></Project> */}
       </div>
       <div className="category">
         <h2>Other Software Development</h2>

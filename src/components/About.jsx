@@ -67,7 +67,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="about">
+      {/* <div className="about">
         <h2>Other Interests</h2>
         <div>
           <h3>Music</h3>
@@ -109,10 +109,7 @@ export default function About() {
         <div>
           <h3>Sports</h3>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            provident ut mollitia, cumque asperiores molestias eligendi ipsum
-            nemo ipsam ea ratione dolorum repellendus deleniti, voluptates
-            accusantium, illo iusto nam voluptatum.
+            
           </div>
         </div>
         <div>
@@ -142,7 +139,7 @@ export default function About() {
             accusantium, illo iusto nam voluptatum.
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

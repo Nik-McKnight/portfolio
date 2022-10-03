@@ -37,12 +37,23 @@ a:hover {
     place-content: center;
 }
 
-.about > div, .project {
+.about > div, .project, .skills {
     background-color: #d1aff7;
     color:black;
     width: auto;
-    padding: 1vh 4vh 4vh 4vh;
+    padding: 2vh 4vh 4vh 4vh;
     margin: 1vh 2vh 4vh 2vh;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.skills > li {
+    flex-basis: 300px;
 }
 
 .about > div > a, .projectItem>a {
@@ -58,5 +69,17 @@ a:hover {
     text-decoration: none;
     list-style: none;
     padding: 0;
+}
+@media only screen and (max-width: 768px) {
+
+    .skills>li {
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+    .skills>li {
+        flex-basis: 50%;
+    }
 }
 
